@@ -1,7 +1,5 @@
 # ✈️ Flight Arrival Delay Prediction
 
-**ADTA 5940 Analytics Capstone — University of North Texas**
-Group 8 | Spring 2026
 
 ## 📌 Project Overview
 
@@ -74,11 +72,11 @@ This project builds a **two-stage machine learning framework** to predict flight
 - Significant unexplained variance remains in delay duration prediction
 - Future work could incorporate route-specific weather, aircraft equipment type, and network-wide flight status, plus probabilistic forecasting instead of point estimates
 
-**Course:** ADTA 5940 — Analytics Capstone, Dr. Jingjing Tong
 
 ## 📁 Repository Contents
 
 - `flight_file.ipynb` — Full pipeline: data merging, cleaning, feature engineering, weather enrichment (Open-Meteo API), EDA, model training/tuning, and evaluation
+- `requirements.txt` — Python libraries needed to run the notebook (`pip install -r requirements.txt`)
 
 ## 📂 Data
 
